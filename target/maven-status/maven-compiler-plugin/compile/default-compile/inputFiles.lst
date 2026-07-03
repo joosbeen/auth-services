@@ -1,0 +1,10 @@
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/AutenticacionApplication.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/config/DataInitializer.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/controller/AuthController.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/dto/LoginRequest.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/dto/LoginResponse.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/entity/User.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/exception/AuthenticationException.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/exception/GlobalExceptionHandler.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/repository/UserRepository.java
+/home/jose/Documentos/projects/autenticacion/src/main/java/com/company/autenticacion/service/AuthenticationService.java

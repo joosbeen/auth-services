@@ -1,0 +1,10 @@
+com/company/autenticacion/controller/AuthController.class
+com/company/autenticacion/config/DataInitializer.class
+com/company/autenticacion/entity/User.class
+com/company/autenticacion/repository/UserRepository.class
+com/company/autenticacion/dto/LoginResponse.class
+com/company/autenticacion/exception/AuthenticationException.class
+com/company/autenticacion/exception/GlobalExceptionHandler.class
+com/company/autenticacion/service/AuthenticationService.class
+com/company/autenticacion/AutenticacionApplication.class
+com/company/autenticacion/dto/LoginRequest.class
