@@ -12,10 +12,12 @@ import org.springframework.stereotype.Service;
 public class AuthenticationService {
 
     private final UserRepository userRepository;
+    private final JwtService jwtService;
 
     @Autowired
-    public AuthenticationService(UserRepository userRepository) {
+    public AuthenticationService(UserRepository userRepository, JwtService jwtService) {
         this.userRepository = userRepository;
+        this.jwtService = jwtService;
     }
 
     public LoginResponse login(LoginRequest loginRequest) {
@@ -26,6 +28,7 @@ public class AuthenticationService {
             throw new AuthenticationException("Contraseña incorrecta");
         }
 
-        return new LoginResponse("Login exitoso", user.getEmail());
+        String token = jwtService.generateToken(user.getEmail());
+        return new LoginResponse("Login exitoso", user.getEmail(), token);
     }
 }
