@@ -17,9 +17,9 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) {
         if (!userRepository.existsByEmail("test@example.com")) {
-            User user = new User("test@example.com", "password123");
+            User user = new User("Usuario Test", "test@example.com", "password123");
             userRepository.save(user);
-            System.out.println("Usuario de prueba creado: test@example.com / password123");
+            System.out.println("Usuario de prueba creado: Usuario Test / test@example.com / password123");
         }
     }
 }
